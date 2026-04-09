@@ -117,55 +117,28 @@ h2 {
   margin-bottom: 20px;
 }
 
-.service-grid {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
-.service-card {
-  background-color: #111;
-  border: 1px solid rgba(212,175,55,0.3);
-  border-radius: 12px;
-  padding: 30px;
-  width: 280px;
-  transition: transform 0.4s, box-shadow 0.4s;
-}
-
-.service-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 0 25px rgba(212,175,55,0.4);
-}
-
-.icon {
-  font-size: 2rem;
-  color: var(--gold);
-}
-
-.testimonial-grid {
+.about-icons {
   display: flex;
   justify-content: center;
   gap: 40px;
-  flex-wrap: wrap;
   margin-top: 40px;
 }
 
-.testimonial-card {
+.icon-card {
   background-color: #111;
   border: 1px solid rgba(212,175,55,0.3);
   border-radius: 12px;
   padding: 20px;
-  width: 320px;
-  box-shadow: 0 0 20px rgba(212,175,55,0.2);
+  width: 220px;
   transition: transform 0.4s, box-shadow 0.4s;
 }
 
-.testimonial-card:hover {
+.icon-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 0 30px rgba(212,175,55,0.5);
+  box-shadow: 0 0 25px rgba(212,175,55,0.4);
 }
 
-.telegram-print {
-  width: 100%;
-  border-radius: 8px
+.service-grid {
+  display: flex;
+  justify-content: center;
+  gap: 
